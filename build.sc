@@ -5,11 +5,11 @@ object sparkForkJoin extends ScalaModule
 {
   def scalaVersion = "2.12.15"
 
-  def ivyDeps = Agg(
-    // ivy"org.apache.spark::spark-sql:3.3.1",
-    // ivy"org.apache.spark::spark-mllib:3.3.1",
-    // ivy"org.apache.spark::spark-hive:3.3.1",
-  )
+  // def ivyDeps = Agg(
+  //   ivy"org.apache.spark::spark-sql:3.3.1",
+  //   ivy"org.apache.spark::spark-mllib:3.3.1",
+  //   ivy"org.apache.spark::spark-hive:3.3.1",
+  // )
 
   object test extends Tests with TestModule.Specs2 
   {
